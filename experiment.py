@@ -21,8 +21,9 @@ def run_experiment_with(algo, test_cases):
     for tc in test_cases:
         wrapped_func = lambda: algo(tc.pattern, tc.text)
         total_time += measure_time(wrapped_func)
-    average_time = total_time / len(test_cases)
-    print (f"{algo.__name__} - Average time: {average_time * 1000} ms")
+    average_time_in_second = total_time / len(test_cases)
+    average_time_in_micro_second = average_time_in_second * (10 ** 6)
+    print (f"{algo.__name__} - Average time: {average_time_in_micro_second:.3f} us")
 
 def run_experiment(test_cases: StringMatchingTestCases, pattern_key: str, text_key: str):
     print(f'Running Experiment for {pattern_key} and {text_key}')

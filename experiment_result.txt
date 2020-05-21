@@ -1,0 +1,102 @@
+Running Experiment for pattern_length=10 and text_length=10
+kmp_match - Average time: 12.722 us
+z_match - Average time: 16.775 us
+rabin_karp_match - Average time: 7.114 us
+--------------------------------------
+
+Running Experiment for pattern_length=10 and text_length=100
+kmp_match - Average time: 16.680 us
+z_match - Average time: 49.744 us
+rabin_karp_match - Average time: 52.376 us
+--------------------------------------
+
+Running Experiment for pattern_length=10 and text_length=1000
+kmp_match - Average time: 137.682 us
+z_match - Average time: 439.548 us
+rabin_karp_match - Average time: 550.289 us
+--------------------------------------
+
+Running Experiment for pattern_length=10 and text_length=10000
+kmp_match - Average time: 1280.203 us
+z_match - Average time: 3394.604 us
+rabin_karp_match - Average time: 4009.848 us
+--------------------------------------
+
+Running Experiment for pattern_length=10 and text_length=100000
+kmp_match - Average time: 10209.923 us
+z_match - Average time: 32622.337 us
+rabin_karp_match - Average time: 40768.909 us
+--------------------------------------
+
+Running Experiment for pattern_length=1 and text_length=1000
+kmp_match - Average time: 106.125 us
+z_match - Average time: 323.677 us
+rabin_karp_match - Average time: 437.346 us
+--------------------------------------
+
+Running Experiment for pattern_length=2 and text_length=1000
+kmp_match - Average time: 102.272 us
+z_match - Average time: 334.110 us
+rabin_karp_match - Average time: 409.880 us
+--------------------------------------
+
+Running Experiment for pattern_length=4 and text_length=1000
+kmp_match - Average time: 94.042 us
+z_match - Average time: 311.079 us
+rabin_karp_match - Average time: 394.592 us
+--------------------------------------
+
+Running Experiment for pattern_length=8 and text_length=1000
+kmp_match - Average time: 97.799 us
+z_match - Average time: 308.571 us
+rabin_karp_match - Average time: 395.555 us
+--------------------------------------
+
+Running Experiment for pattern_length=16 and text_length=1000
+kmp_match - Average time: 97.437 us
+z_match - Average time: 315.647 us
+rabin_karp_match - Average time: 405.731 us
+--------------------------------------
+
+Running Experiment for pattern_length=32 and text_length=1000
+kmp_match - Average time: 104.332 us
+z_match - Average time: 335.913 us
+rabin_karp_match - Average time: 401.640 us
+--------------------------------------
+
+Running Experiment for pattern_length=64 and text_length=1000
+kmp_match - Average time: 110.760 us
+z_match - Average time: 326.471 us
+rabin_karp_match - Average time: 397.415 us
+--------------------------------------
+
+Running Experiment for pattern_length=128 and text_length=384
+kmp_match - Average time: 70.400 us
+z_match - Average time: 150.843 us
+rabin_karp_match - Average time: 141.363 us
+--------------------------------------
+
+Running Experiment for pattern_length=256 and text_length=256
+kmp_match - Average time: 93.880 us
+z_match - Average time: 147.047 us
+rabin_karp_match - Average time: 88.835 us
+--------------------------------------
+
+Running Experiment for pattern_length=512 and text_length=1000
+kmp_match - Average time: 247.536 us
+z_match - Average time: 472.670 us
+rabin_karp_match - Average time: 380.878 us
+--------------------------------------
+
+Running Experiment for pattern_length=230 and text_length=282
+kmp_match - Average time: 89.169 us
+z_match - Average time: 147.877 us
+rabin_karp_match - Average time: 99.926 us
+--------------------------------------
+
+Running Experiment for pattern_length=200 and text_length=312
+kmp_match - Average time: 82.436 us
+z_match - Average time: 152.264 us
+rabin_karp_match - Average time: 111.713 us
+--------------------------------------
+
