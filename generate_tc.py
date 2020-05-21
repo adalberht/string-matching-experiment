@@ -27,12 +27,16 @@ DESIRED_TEST_CASES = [
     {'pattern_length': 10, 'text_length': 10000, 'number_of_test_cases': 5},
     {'pattern_length': 10, 'text_length': 100000, 'number_of_test_cases': 5},
 
-    {'pattern_length': 10, 'text_length': 10000, 'number_of_test_cases': 5},
-    {'pattern_length': 100, 'text_length': 10000, 'number_of_test_cases': 5},
-    {'pattern_length': 1000, 'text_length': 10000, 'number_of_test_cases': 5},
-    {'pattern_length': 2000, 'text_length': 10000, 'number_of_test_cases': 5},
-    {'pattern_length': 5000, 'text_length': 10000, 'number_of_test_cases': 5},
-    {'pattern_length': 10000, 'text_length': 10000, 'number_of_test_cases': 5},
+    {'pattern_length': 1, 'text_length': 1000, 'number_of_test_cases': 5},
+    {'pattern_length': 2, 'text_length': 1000, 'number_of_test_cases': 5},
+    {'pattern_length': 4, 'text_length': 1000, 'number_of_test_cases': 5},
+    {'pattern_length': 8, 'text_length': 1000, 'number_of_test_cases': 5},
+    {'pattern_length': 16, 'text_length': 1000, 'number_of_test_cases': 5},
+    {'pattern_length': 32, 'text_length': 1000, 'number_of_test_cases': 5},
+    {'pattern_length': 64, 'text_length': 1000, 'number_of_test_cases': 5},
+    {'pattern_length': 128, 'text_length': 1000, 'number_of_test_cases': 5},
+    {'pattern_length': 256, 'text_length': 1000, 'number_of_test_cases': 5},
+    {'pattern_length': 512, 'text_length': 1000, 'number_of_test_cases': 5},
 ]
 
 def main():

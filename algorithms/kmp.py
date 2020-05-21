@@ -15,7 +15,7 @@ def build_longest_suffix_prefix_table(pattern: str) -> List[int]:
 # Mencari kemunculan-kemunculan string [pattern] pada string [text] dengan menggunakan algoritma Knuth-Morris-Pratt.
 # Apabila [pattern] tidak ditemukan pada [text], fungsi ini akan mengembalikan list kosong.
 # Apabila [pattern] ditemukan, fungsi ini akan mengembalikan list seluruh kemunculan [pattern] pada [text]
-def kmp_search(pattern: str, text: str) -> Optional[List[int]]:
+def kmp_match(pattern: str, text: str) -> Optional[List[int]]:
    lsp_table: List[int] = build_longest_suffix_prefix_table(pattern) # Konstruksi tabel LSP terlebih dahulu
    results, j = [], 0 # Inisialisasi variabel
    for i, c in enumerate(text):
